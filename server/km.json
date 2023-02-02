@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Суха молочна суміш Hipp Combiotic 1 900 г (2x450)",
+      "price": 228,
+      "imageUrl": "/img/goods/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Суха молочна суміш Нэнни Бибиколь 1 з пребіотиками",
+      "price": 724,
+      "imageUrl": "/img/goods/2.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Суха кисломолочна суміш Nestle NAN 1 400 г",
+      "price": 303,
+      "imageUrl": "/img/goods/3.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Суха кисломолочна суміш Nutrilon 1 400 г",
+      "price": 283,
+      "imageUrl": "/img/goods/4.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Суха суміш MAMAKO 2 Premium 400 г",
+      "price": 627,
+      "imageUrl": "/img/goods/5.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Суха суміш MAMAKO Premium 800 г",
+      "price": 1121,
+      "imageUrl": "/img/goods/6.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "Суха молочна суміш Nestle Nestogen для дітей з народження з лактобактеріями 1 L.Reuteri 1000г",
+      "price": 451,
+      "imageUrl": "/img/goods/7.jpeg"
+    }
+  ],
+  "cart": [],
+  "favorites": [],
+  "orders": []
+}
