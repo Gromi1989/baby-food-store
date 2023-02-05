@@ -3,6 +3,19 @@ import {Link} from "react-router-dom";
 import AppContext from "../context";
 
 const Header = (props) => {
+
+
+
+
+
+
+
+
+
+
+
+
+
     const {cartItems} = React.useContext(AppContext)
     const totalPrice = cartItems.reduce((sum, obj) => obj.price + sum, 0)
     return (
@@ -17,19 +30,27 @@ const Header = (props) => {
                 </div>
             </Link>
             <ul className='d-flex'>
+                {/*<li>*/}
+                {/*    <a href="#" className='themeToggle mr-30 d-flex'>*/}
+                {/*        Перемикачь теми*/}
+                {/*        <span className="material-symbols-outlined">*/}
+                {/*          light_mode*/}
+                {/*        </span>*/}
+                {/*    </a>*/}
+                {/*</li>*/}
                 <li onClick={props.onClickCart} className='mr-30 cu-p'>
                     <img width={30} height={30} src="/img/cart.png" alt='Cart'/>
                     <span>{totalPrice} грн.</span>
                 </li>
                 <li>
                     <Link to='/favorites'>
-                        <img width={30} height={30} src="/img/favorite.svg" alt='Favorite'/>
+                        <img width={30} height={30} src="/img/favorite.png" alt='Favorite'/>
                     </Link>
 
                 </li>
                 <li>
                     <Link to='/orders'>
-                    <img width={30} height={30} src="/img/user.png" alt='User'/>
+                        <img width={30} height={30} src="/img/user.png" alt='User'/>
                     </Link>
                 </li>
             </ul>

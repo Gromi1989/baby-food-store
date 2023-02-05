@@ -44,6 +44,25 @@
     }
   ],
   "cart": [],
-  "favorites": [],
+  "favorites": [
+    {
+      "id": 4,
+      "title": "Суха кисломолочна суміш Nutrilon 1 400 г",
+      "imageUrl": "/img/goods/4.jpeg",
+      "price": 283
+    },
+    {
+      "id": 3,
+      "title": "Суха кисломолочна суміш Nestle NAN 1 400 г",
+      "imageUrl": "/img/goods/3.jpeg",
+      "price": 303
+    },
+    {
+      "id": 2,
+      "title": "Суха молочна суміш Нэнни Бибиколь 1 з пребіотиками",
+      "imageUrl": "/img/goods/2.jpeg",
+      "price": 724
+    }
+  ],
   "orders": []
 }
